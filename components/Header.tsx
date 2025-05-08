@@ -15,7 +15,10 @@ export default function Header({ className }: HeaderProps) {
       )}
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-4">
+        <Link
+          href="/"
+          className="flex items-center space-x-2 font-bold text-xl hover:text-primary transition-colors"
+        >
           test
         </Link>
         <div className="border-l pl-4">
